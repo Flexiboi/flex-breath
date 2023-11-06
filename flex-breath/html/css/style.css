@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+body {
+    overflow: hidden;
+    transition: all 0.5s;
+    font-family: 'Kanit', sans-serif;
+}
+
+#container {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/breath.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 218px;
+    height: 402px;
+    bottom: 20px;
+    right: 50px;
+}
+
+#start {
+    position: absolute;
+    width: 3.8vh;
+    height: 1.8vh;
+    bottom: 18.5vh;
+    right: 5.8vh;
+    transition: all 0.1s linear;
+}
+
+#start:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+#reset {
+    position: absolute;
+    width: 3.8vh;
+    height: 1.8vh;
+    bottom: 15.5vh;
+    right: 5.8vh;
+    transition: all 0.1s linear;
+}
+
+#reset:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+#breath {
+    position: absolute;
+    top: 34.5%;
+    left: 60.8%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    text-align: center;
+    color: rgb(41, 41, 41);
+    font-size: 2.7vh;
+}
