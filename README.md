@@ -1,2 +1,2 @@
 # flex-breath
-Shitty breathalyzer for qb
+Bad breathalyzer for qb
